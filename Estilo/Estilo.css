@@ -1,0 +1,100 @@
+
+/*1280 x 800*/
+
+body{
+	margin:0 auto;
+	width:1280px;
+	height:900px;
+	background: linear-gradient(to bottom, #ffffff 51%, #0066ff 121%);
+}
+#contenedor{
+	width: 100%;
+	
+	height: 500px;
+}
+#centro{
+	width: 60%;
+	
+	background-color: linear-gradient(to bottom, #ffffff 51%, #0066ff 121%);
+	overflow:auto;
+}
+#izq, #derecho, #centro{
+	display: inline-block;
+	height: inherit;
+	overflow:auto;
+}
+#izq, #derecho{
+	width: 20%;
+	background-color: linear-gradient(to bottom left, #ffffff 18%, #0066ff 130%);
+	overflow:auto;
+}
+#baner
+{
+	width:100px;
+	height:200px;
+	background:#FFFFFF
+	background-repeat: no-repeat; 
+	background-position:center;
+	
+}
+#logo{
+	width:300px;
+	height:200px;
+	background:url(../Imagenes/ad.png);
+	background-repeat:no-repeat; 
+	background-position:center;	
+}
+#menu
+{
+	width:1280px;
+	height:60px;
+	background:#FFFFFF;
+	float: left;	
+}
+ul#menu /*Cuando encuentre una etiqueta ul en menu*/
+{
+	text-align:center;
+	padding:o;
+}
+ul#menu li
+{
+	display:inline;
+	
+}	
+ul#menu li a
+{
+	background:#6695c6;
+	color; #000000;
+	padding:15px 70px;
+	text-decoration:none;
+	border-radius:10px 10px 10px 10px;
+}
+ul#menu li a:hover
+{
+	background:#6695c6;
+}
+
+#contenido
+{
+	width:1280px;
+	height:400px;
+	background:#FFFFFF;
+}
+#piepagina
+{
+	width:1280px;
+	height:100px;
+	background:linear-gradient(to bottom left, #ffffff 18%, #0066ff 130%);
+}
+h1,h4
+		{color:#000000;}
+		
+		p
+		{color:#000000;}
+		
+		small
+		{
+			font-family:Calibri;
+			font-size:20;
+			color:red;
+		}
